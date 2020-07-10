@@ -1,4 +1,4 @@
-# Forge Face Detect (Typescript)
+# Forge - Face Detect
 
 This project contains a Forge app written in Typescript that extracts faces from an image and let us add some caption/description for each extracted image faces.
 
