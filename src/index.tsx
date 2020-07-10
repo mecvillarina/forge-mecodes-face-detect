@@ -6,24 +6,17 @@ import ForgeUI, {
   Button,
   Form,
   TextField,
-  CheckboxGroup,
-  Checkbox,
   useAction,
   useState,
-  ConfigForm,
   Image,
   ModalDialog,
   Table,
-  Head,
   Cell,
   Row,
 } from "@forge/ui";
 
 import api from "@forge/api";
 import { useContentProperty } from "@forge/ui-confluence";
-import { deflateSync } from "zlib";
-import * as delay from "delay";
-import { stringify } from "querystring";
 
 const FACE_DETECT_API =
   "https://atlassian-forge-functions.azurewebsites.net/api/face/FaceDetect";
