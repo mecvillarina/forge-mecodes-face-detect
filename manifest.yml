@@ -1,0 +1,17 @@
+modules:
+  macro:
+    - key: forge-mecodes-face-detect
+      function: main
+      title: forge-mecodes-face-detect
+      description: Inserts Hello world!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: "ari:cloud:ecosystem::app/cb7f0397-97c2-4f5e-98fd-303e0441ff8c"
+  name: forge-mecodes-face-detect
+
+permissions:
+  scopes:
+    - "read:confluence-props"
+    - "write:confluence-props"
