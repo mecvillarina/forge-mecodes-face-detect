@@ -151,11 +151,7 @@ const App = () => {
         <Fragment>
           <Text format="markdown">{`**${uiPageImageTitle}**`}</Text>
           <Image src={uiPageImage} alt=""></Image>
-          <Button
-            text="Reset"
-            appearance="warning"
-            onClick={() => resetData()}
-          ></Button>
+          <Button text="Reset" onClick={() => resetData()}></Button>
           <Table>
             {uiPageFaces.map((face) => {
               return (
@@ -219,6 +215,5 @@ async function checkResponse(apiName, response) {
       response.status
     } ${await response.text()}`;
     console.error(message);
-    // throw new Error(message);
   }
 }
