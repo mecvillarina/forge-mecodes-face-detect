@@ -1,6 +1,6 @@
 # Forge - Face Detect
 
-This project contains a Forge app written in Typescript that extracts faces from an image and let us add some caption/description for each extracted image faces. This only works on Confluence. This app used an 3rd Party API. If you're interested what's behind the 3rd Party API, the project repository can be found [here](https://google.com).
+This project contains a Forge app written in Typescript that extracts faces from an image and let us add some caption/description for each extracted image faces. This only works on Confluence. This app uses a 3rd Party API. If you're interested what's behind the 3rd Party API, the project repository can be found [here](https://github.com/mecvillarina/forge-mecodes-face-ocr-api).
 
 ## Requirements
 

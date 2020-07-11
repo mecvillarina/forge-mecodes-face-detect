@@ -3,7 +3,7 @@ modules:
     - key: forge-mecodes-face-detect
       function: main
       title: forge-mecodes-face-detect
-      description: Inserts Hello world!
+      description: Convert your group photo into individual photos.
   function:
     - key: main
       handler: index.run
